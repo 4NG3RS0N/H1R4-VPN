@@ -4,7 +4,7 @@ Built for simplicity, speed, and low-resource environments.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - 🔐 Secure VPN connection via OpenVPN  
 - ⚡ Lightweight and fast (minimal dependencies)  
@@ -16,38 +16,38 @@ Built for simplicity, speed, and low-resource environments.
 
 ---
 
-## 📦 Requirements
+# 📦 Requirements
 
 - Python 3.x  
 - OpenVPN installed on your system  
 
-## Install OpenVPN
+# Install OpenVPN
 
 - **Linux (Debian/Ubuntu):**
   ```bash
   sudo apt update
   sudo apt install openvpn
 
-## ⚙️ Installation
+# ⚙️ Installation
 git clone https://github.com/4ng3rs0n/h1r4-vpn.git
 cd h1r4-vpn
 pip install -r requirements.txt
 
 
-## 🖥️ Usage
+# 🖥️ Usage
 
-## ▶️ Connect to VPN
+# ▶️ Connect to VPN
 python h1r4_vpn.py connect config.ovpn
 
-## ⛔ Disconnect VPN
+# ⛔ Disconnect VPN
 python h1r4_vpn.py disconnect
 
-## 📊 Check Status
+# 📊 Check Status
 python h1r4_vpn.py status
 
 ---
 
-## 🔍 Example Output
+# 🔍 Example Output
 [+] Launching H1R4 VPN...
 [+] Current IP: 192.168.1.10
 [~] Connecting...
@@ -56,7 +56,7 @@ python h1r4_vpn.py status
 
 ---
 
-## 🧠 How It Works
+# 🧠 How It Works
 
 H1R4 VPN acts as a wrapper around the OpenVPN client:
 
@@ -65,30 +65,30 @@ Reads .ovpn config files provided by the user
 Monitors connection status
 Fetches public IP using external API
 
-## 🧩 Optional Features
+# 🧩 Optional Features
 
-# 🔄 Auto-reconnect on drop
-# 📝 Logging system
-# 🕶️ Stealth mode (minimal output)
+🔄 Auto-reconnect on drop
+📝 Logging system
+🕶️ Stealth mode (minimal output)
 
 ---
 
-## ⚠️ Disclaimer
+# ⚠️ Disclaimer
 
 This project is for educational and personal use only & I'm not responsable for your actions.
 
-## 🤝 Contributing
+# 🤝 Contributing
 
 Pull requests are welcome.
 For major changes, please open an issue first to discuss your ideas.
 
-## 📜 License
+# 📜 License
 
 No License lol hhhh
 
 ---
 
-## 💡 Vision
+# 💡 Vision
 
 H1R4 VPN is designed as a foundation, nothing big
 a small spark that can evolve into a full-featured privacy tool.
