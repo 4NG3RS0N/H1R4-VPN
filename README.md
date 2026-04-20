@@ -29,7 +29,7 @@ Built for simplicity, speed, and low-resource environments.
   sudo apt install openvpn
 
 ## ⚙️ Installation
-git clone https://github.com/yourusername/h1r4-vpn.git
+git clone https://github.com/4ng3rs0n/h1r4-vpn.git
 cd h1r4-vpn
 pip install -r requirements.txt
 
